@@ -91,6 +91,10 @@ data_statistics %>%
 a<-
   data_statistics %>% 
   filter(Assault_Rate_2019 > 876)
+
+a<-
+  data_statistics %>% 
+  filter(Assault_Rate_2019 > 876)
 b <-
   a %>% 
   filter(Assault_CHG < 0.0)
